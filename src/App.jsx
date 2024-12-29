@@ -27,9 +27,10 @@ function App() {
           body: JSON.stringify({
             jsonrpc: "2.0",
             params: {
+              // changer selon les infos local
               db: "projetpgi",
               login: "abdegh0343@gmail.com",
-              password: "projetpgi",
+              password: "projetpgi", 
             },
           }),
         });
